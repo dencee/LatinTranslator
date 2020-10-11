@@ -13,8 +13,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
 public class Translate implements ActionListener {
-	public static final String englishLanguageId = "en";
-	public static final String latinLanguageId = "la";
+    public static final String englishLanguageId = "en";
+    public static final String latinLanguageId = "la";
     JFrame frame;
     JPanel panel;
     JButton translateButton;
@@ -70,7 +70,7 @@ public class Translate implements ActionListener {
         return response.toString();
     }
 
-	@Override
+    @Override
     public void actionPerformed(ActionEvent e) {
         if( e.getSource() == translateButton ) {
             
